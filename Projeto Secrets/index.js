@@ -8,6 +8,8 @@ import GoogleStrategy from "passport-google-oauth2";
 import session from "express-session";
 import env from "dotenv";
 
+//TODO merge this with the todolist first. See how the database would be structured
+
 const app = express();
 const port = 3000;
 const saltRounds = 10;
